@@ -90,6 +90,10 @@ AWS Glue Crawler scans S3 and registers the schema in Glue Data Catalog.
 
 ![Glue Crawler Creation](Images/crawler.png)
 
+Custom Classifier: This image shows the creation of a custom classifier in Glue.  This classifier is used to define the schema of the data in S3 (in Json format)
+
+![Custom Classifier](Images2/crawlerclassification.png)
+
 `11. Athena Query for Analysis`
 Athena is used to query and analyze sales data stored in S3.
 
