@@ -113,5 +113,12 @@ Athena is used to query and analyze sales data stored in S3.
 
 - Implement Real-Time Dashboards: Use Amazon QuickSight for interactive visualization of sales
 
+## Troubleshooting & Debugging
+- Initially, the Lambda function failed due to a syntax issue, causing Firehose to return the data without transformation.
+- Debugged by analyzing CloudWatch logs, fixing the syntax, and redeploying the function.
+- Fix: Updated the Lambda function and redeployed, Firehose successfully delivered transformed records to S3.
+  ![error logs](Images/firehose-error.png)
+  ![error logs](Images/cloudwatchlogs.png)
+  
 ## 👨‍💻 Author
 Hi, I’m Aman Saxena!, an aspiring Data Engineer. Feel free to connect on amansaxena129@gmail.com
